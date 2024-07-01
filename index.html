@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+<div class = "container">
+    <h1>Product Catalog</h1>
+    <table id="productTable">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Model</th>
+            <th>Cost</th>
+            <th>Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Inventory items will be inserted here by JavaScript-->
+        </tbody>
+    </table>
+    <h2> Add New Product</h2>
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="text" id="productModel" placeholder="Product Model">
+    <input type="number" id="productCost" placeholder="Product Cost">
+    <input type="number" id="productQuantity" placeholder="Product Quantity">
+    <button id="addProductButton">Add Product</button>
+</div>
+<script src="script.js" ></script>
+</body>
+</html>
